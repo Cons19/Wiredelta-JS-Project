@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My day</title>
+	<link rel="stylesheet" href="styles/tableStyle.css">
+</head>
+<body>
+	<p id="showPageTitle"></p>
+	<p id="todayDate"></p>
+	<p id="currentTime"></p>
+    <p id="todayTask"></p>
+    <b>New Title Name:</b> <input type="text" id="newTitleName">
+	<button onclick="changePageTitle()">Change Title</button>
+	<br><br>
+	<select id="newBgColor" onchange="changeBackgroundColor()">
+		<option value="">Choose a background color</option>
+	    <option value="red">Red</option>
+	    <option value="orange">Orange</option>
+	    <option value="yellow">Yellow</option>
+	    <option value="green">Green</option>
+	    <option value="blue">Blue</option>
+	    <option value="indigo">Indigo</option>
+	    <option value="violet">Violet</option>
+	    <option value="cyan">Cyan</option>
+	    <option value="gray">Gray</option>
+	    <option value="maroon">Maroon</option>
+	</select>
+	<script src="scripts/dateFormat.js"></script>
+	<script src="scripts/timeFormat.js"></script>
+	<script src="scripts/todayTask.js"></script>
+	<script src="scripts/changePageTitle.js"></script>
+	<script src="scripts/changeBackgroundColor.js"></script>
+
+</body>
+</html>
